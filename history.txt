@@ -1,0 +1,13 @@
+The solution of High-pass Passive filter N=1 (RC): 
+The value of cut-off frequency equals: 0.15916(Hz)
+
+The solution of ButterWorth (Poles):  (1 , -5.35898e-08) 
+The solution of ButterWorth (Order N): 1
+
+The solution of ButterWorth (Poles):  (1.14805 , -2.77164) 
+The solution of Chebyshev 0.5 (Low-pass)
+The value of w of the first stage equals: 19.88
+The value of w of the seconnd stage equals: 33.4265
+The value of RC in first stage should be 0.0842576 when you design the circuit, and the value of gain(K) equals: 1.582
+The value of RC in second stage should be 0.0290168 when you design the circuit, and the value of gain(K) equals: 2.66
+

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Check_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircuitElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentSource_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Element_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSaver_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetNodeAndElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu1item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu1item2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu2item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu3item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu4item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu5item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu6item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu21item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu22item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu41item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu42item1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resistor_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolveMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolveMatrix_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub1menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub2menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub3menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub4menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub5menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub6menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub21menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub22menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub41menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub42menu1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thevenin_calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoltageSource_chao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Circuit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircuitElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentSource_chao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Element_chao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNodeAndElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu1item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu1item2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu2item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu3item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu4item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu5item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu6item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu21item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu22item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu41item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu42item1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node_chao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resistor_chao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolveMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolveMatrix_chao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub1menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub2menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub3menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub4menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub5menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub6menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub21menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub22menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub41menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub42menu1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thevenin_calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoltageSource_chao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="FileSaver_chao.txt" />
+    <Text Include="history.txt" />
+    <Text Include="terminology.txt" />
+  </ItemGroup>
+</Project>

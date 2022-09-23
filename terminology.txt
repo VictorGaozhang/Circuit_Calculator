@@ -1,0 +1,13 @@
+tree branch 树枝
+Network Graph Theory of Circuits 电路的网络图论
+link 连枝
+Minimum spanning tree 最小生成树
+fundamental loop 基本回路
+Cut set 割集
+node incidence matrix 节点关联矩阵
+incidence matrix 节点关联矩阵
+fundamental loop matrix 基本回路矩阵
+Gaussian elimination 高斯消元法
+Matrix external library 外部矩阵库
+Using a Adjacency matrix to store the information of the graph, every elements in Adjacency matrix is
+a struct which contains a vector of all circuit elements between these two nodes and a flag for calculation

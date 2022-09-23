@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6a2cd6cc-025b-4061-8c33-afcb9274418c}</ProjectGuid>
+    <RootNamespace>EngineeringCalaulator</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Check_chao.h" />
+    <ClInclude Include="Circuit.h" />
+    <ClInclude Include="CircuitElement.h" />
+    <ClInclude Include="CurrentSource_chao.h" />
+    <ClInclude Include="Element_chao.h" />
+    <ClInclude Include="FileSaver_chao.h" />
+    <ClInclude Include="GetNodeAndElement.h" />
+    <ClInclude Include="main_item.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MatrixIO.h" />
+    <ClInclude Include="menu1item1.h" />
+    <ClInclude Include="menu1item2.h" />
+    <ClInclude Include="menu21item1.h" />
+    <ClInclude Include="menu22item1.h" />
+    <ClInclude Include="menu2item1.h" />
+    <ClInclude Include="menu3item1.h" />
+    <ClInclude Include="menu41item1.h" />
+    <ClInclude Include="menu42item1.h" />
+    <ClInclude Include="menu4item1.h" />
+    <ClInclude Include="menu5item1.h" />
+    <ClInclude Include="menu6item1.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Node_chao.h" />
+    <ClInclude Include="Resistor_chao.h" />
+    <ClInclude Include="SolveMatrix.h" />
+    <ClInclude Include="SolveMatrix_chao.h" />
+    <ClInclude Include="sub1menu1.h" />
+    <ClInclude Include="sub21menu1.h" />
+    <ClInclude Include="sub22menu1.h" />
+    <ClInclude Include="sub2menu1.h" />
+    <ClInclude Include="sub3menu1.h" />
+    <ClInclude Include="sub41menu1.h" />
+    <ClInclude Include="sub42menu1.h" />
+    <ClInclude Include="sub4menu1.h" />
+    <ClInclude Include="sub5menu1.h" />
+    <ClInclude Include="sub6menu1.h" />
+    <ClInclude Include="Test_chao.h" />
+    <ClInclude Include="Thevenin_calculator.h" />
+    <ClInclude Include="VoltageSource_chao.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Circuit.cpp" />
+    <ClCompile Include="CircuitElement.cpp" />
+    <ClCompile Include="CurrentSource_chao.cpp" />
+    <ClCompile Include="Element_chao.cpp" />
+    <ClCompile Include="GetNodeAndElement.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_item.cpp" />
+    <ClCompile Include="menu1item1.cpp" />
+    <ClCompile Include="menu1item2.cpp" />
+    <ClCompile Include="menu21item1.cpp" />
+    <ClCompile Include="menu22item1.cpp" />
+    <ClCompile Include="menu2item1.cpp" />
+    <ClCompile Include="menu3item1.cpp" />
+    <ClCompile Include="menu41item1.cpp" />
+    <ClCompile Include="menu42item1.cpp" />
+    <ClCompile Include="menu4item1.cpp" />
+    <ClCompile Include="menu5item1.cpp" />
+    <ClCompile Include="menu6item1.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Node_chao.cpp" />
+    <ClCompile Include="Resistor_chao.cpp" />
+    <ClCompile Include="SolveMatrix.cpp" />
+    <ClCompile Include="SolveMatrix_chao.cpp" />
+    <ClCompile Include="sub1menu1.cpp" />
+    <ClCompile Include="sub21menu1.cpp" />
+    <ClCompile Include="sub22menu1.cpp" />
+    <ClCompile Include="sub2menu1.cpp" />
+    <ClCompile Include="sub3menu1.cpp" />
+    <ClCompile Include="sub41menu.cpp" />
+    <ClCompile Include="sub42menu1.cpp" />
+    <ClCompile Include="sub4menu1.cpp" />
+    <ClCompile Include="sub5menu1.cpp" />
+    <ClCompile Include="sub6menu1.cpp" />
+    <ClCompile Include="Thevenin_calculator.cpp" />
+    <ClCompile Include="VoltageSource_chao.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="FileSaver_chao.txt" />
+    <Text Include="history.txt" />
+    <Text Include="terminology.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
